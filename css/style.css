@@ -83,45 +83,45 @@ h3 {
     width: 20px;
 }
 
-#footer {
+#contact {
     display: flex;
     color: white;
     background-color: blue;
     height: 500px;
 }
 
-#footer .left img{
+#contact .left img{
     width: 25px;
     height: 25px;
 }
 
-#footer .left h3 {
+#contact .left h3 {
     padding: 30px;
 }
 
-#footer .left p {
+#contact .left p {
     padding: 10px;
 }
 
-#footer .left p img{
+#contact .left p img{
     padding-right: 10px;
 }
 
-#footer .left .socials {
+#contact .left .socials {
     padding: 100px;
 }
 
-#footer .left .socials img{
+#contact .left .socials img{
     padding-left: 5px;
 }
 
-#footer .right img{
+#contact .right img{
     width: 500px;
     height: 400px;
     padding-left: 100px;
 }
 
-.last {
+footer {
     text-align: center;
     background-color: black;
     padding: 10px;

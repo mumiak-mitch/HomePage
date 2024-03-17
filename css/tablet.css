@@ -1,1 +1,62 @@
-@media screen and (min-width: 1024px) {}
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+
+    /* Header */
+    #header {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    #header .left img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #header .right {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #header .right .socials {
+        padding-top: 20px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header .right .socials img {
+        margin: 0 10px;
+    }
+
+    /* Work Section */
+    #work .row {
+        flex-direction: column;
+    }
+
+    #work .row .column {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Contact Section */
+    #contact {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #contact .left,
+    #contact .right {
+        text-align: center;
+    }
+
+    #contact .left .socials {
+        padding: 20px 0;
+    }
+
+    #contact .right img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+}

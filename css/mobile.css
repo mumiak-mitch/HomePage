@@ -1,1 +1,61 @@
-@media screen and (min-width: 768px) {}
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+
+    /* Header */
+    #header {
+        padding: 20px;
+    }
+
+    #header .left img {
+        width: 200px;
+        height: auto;
+    }
+
+    #header .right {
+        padding: 10px;
+    }
+
+    #header .right .socials img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Work Section */
+    #work .row .column {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #work .card img {
+        height: 200px;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 20px;
+    }
+
+    #contact .left p {
+        padding: 5px;
+    }
+
+    #contact .left .socials {
+        padding: 20px 0;
+    }
+
+    #contact .left .socials img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #contact .right img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    /* Footer */
+    footer {
+        padding: 5px;
+    }
+}
